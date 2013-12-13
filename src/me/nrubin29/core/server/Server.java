@@ -1,4 +1,4 @@
-package me.nrubin29.rpg.server;
+package me.nrubin29.core.server;
 
 import java.net.BindException;
 import java.net.ServerSocket;

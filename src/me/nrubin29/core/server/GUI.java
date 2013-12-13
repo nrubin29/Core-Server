@@ -1,4 +1,4 @@
-package me.nrubin29.rpg.server;
+package me.nrubin29.core.server;
 
 import java.awt.Component;
 import java.awt.Cursor;
@@ -32,7 +32,7 @@ public class GUI extends JFrame {
 	private static final long serialVersionUID = 1L;
 
 	public GUI(int port) {
-		super("RPG-Core Server");
+		super("Core Server");
 		
 		JPanel infoPanel = new JPanel();
 		infoPanel.setLayout(new BoxLayout(infoPanel, BoxLayout.Y_AXIS));
